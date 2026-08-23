@@ -13,7 +13,7 @@ def main():
     eye_model = cv2.CascadeClassifier(eye_cascade_path)
 
     # Initialize webcam stream (0 = default camera)
-    webcam = cv2.VideoCapture(0)
+    webcam = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
     if not webcam.isOpened():
         print("Error: Could not open camera.")
