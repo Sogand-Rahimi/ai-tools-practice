@@ -1,3 +1,4 @@
+Markdown
 # Speech & Audio Processing
 
 This module covers both high-level Speech-to-Text conversion and low-level Digital Signal Processing (DSP) of live audio streams.
@@ -17,3 +18,12 @@ Install the required dependencies:
 
 ```bash
 pip install SpeechRecognition pyaudio numpy matplotlib
+Usage
+1. Speech to Text Converter
+Bash
+python speech_to_text.py
+2. Audio DSP & Waveform Visualizer
+Bash
+python audio_dsp_processing.py
+
+<FollowUp label="Would you like to walk through the PyAudio and NumPy signal code step-by-step?" query="Walk me through the audio_dsp_processing.py code step-by-step."/>
